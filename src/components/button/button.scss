@@ -1,0 +1,15 @@
+button {
+    font-family: 'Montserrat',sans-serif;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: #ef7c00;
+    color: white;
+    border: 1px solid #ef7C00;
+    transition: all 0.4s ease;
+    &:hover {
+        background-color: white;
+        color: #ef7c00;
+    }
+}
