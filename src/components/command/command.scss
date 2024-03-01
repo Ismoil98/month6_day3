@@ -1,4 +1,5 @@
 .command {
+    text-align: center;
     h2 {
         text-align: center;
         margin-top: 40px;
@@ -42,6 +43,20 @@
             .tel {
                 margin-bottom: 8px;
             }
+        }
+    }
+    button {
+        margin-top: 32px;
+        margin-bottom: 40px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #EF7C00;
+        background-color: white;
+        border: 1px solid #EF7C00;
+        transition: all 0.4s ease;
+        &:hover {
+            color: white;
+            background-color: #EF7C00;
         }
     }
 }

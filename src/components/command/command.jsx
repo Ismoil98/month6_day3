@@ -85,6 +85,9 @@ class command extends Component {
                 </p>
             </li>
         </ul>
+        <button>
+            Наша команда
+        </button>
       </div>
     )
   }
