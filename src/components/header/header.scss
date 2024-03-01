@@ -1,0 +1,22 @@
+.header {
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    nav {
+        width: 828px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        a {
+            color: #2C2D2E;
+            transition: all 0.4s ease;
+            &:hover {
+                color: #EF7C00;
+        }
+        }
+    }
+}

@@ -4,7 +4,7 @@ import './button.scss'
 class button extends Component {
   render() {
     return (
-      <button>{this.props.children}</button>
+      <button className='mainBtn'>{this.props.children}</button>
     )
   }
 }
